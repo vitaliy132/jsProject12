@@ -56,7 +56,6 @@ html {
   color: #666;
 }
 
-/* Navigation */
 .navigation {
   display: grid;
   justify-content: stretch;
@@ -92,7 +91,6 @@ html {
   text-align: center;
 }
 
-/* Main content grid */
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -162,11 +160,7 @@ html {
   color: #333;
 }
 
-.period {
-  margin: 0;
-  color: #666;
-}
-
+.period,
 .degree {
   margin: 0;
   color: #666;
