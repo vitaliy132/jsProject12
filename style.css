@@ -1,19 +1,17 @@
-/* Base styles */
 body,
 html {
   margin: 0;
   padding: 0;
-  height: 100%; /* Make sure the body and HTML take up the full height of the viewport */
+  height: 100%;
   display: grid;
   place-items: center;
-  background-color: grey; /* Grey background covering the entire page */
+  background-color: grey;
 }
 
-/* Page wrapper */
 .page-wrapper {
-  width: 50vw; /* Width of the container */
-  height: 80vh; /* Height of the container */
-  background: white; /* White background for the content area */
+  width: 50vw;
+  height: 80vh;
+  background: white;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: auto;
@@ -22,7 +20,6 @@ html {
   gap: 20px;
 }
 
-/* Header section */
 .header {
   display: grid;
   justify-items: center;
@@ -45,7 +42,7 @@ html {
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  display: block; /* Ensure the image is displayed as a block element */
+  display: block;
 }
 
 .name {
@@ -114,7 +111,6 @@ html {
   transform: translateX(-50%);
 }
 
-/* Sections */
 .left-section,
 .right-section {
   padding: 20px;
@@ -142,7 +138,6 @@ html {
   color: #666;
 }
 
-/* Skills list */
 .skills-list {
   list-style-type: none;
   padding-left: 0;
@@ -156,7 +151,6 @@ html {
   padding: 5px 0;
 }
 
-/* Education section */
 .education-details {
   display: grid;
   gap: 5px;
@@ -178,7 +172,6 @@ html {
   color: #666;
 }
 
-/* Links section */
 .links-container {
   display: grid;
   gap: 10px;
