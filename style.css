@@ -9,10 +9,9 @@ html {
 }
 
 .page-wrapper {
-  width: 50vw;
-  height: 80vh;
+  width: 595px;
+  height: 842px;
   background: white;
-  padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: auto;
   display: grid;
@@ -24,6 +23,10 @@ html {
   display: grid;
   justify-items: center;
   gap: 10px;
+  background: linear-gradient(to bottom, #eeeef4 50%, transparent 50%);
+  width: 100%;
+  position: relative;
+  padding: 20px 0 0 0;
 }
 
 .photo-wrapper {
@@ -89,6 +92,13 @@ html {
   padding: 10px 20px;
   border-radius: 4px;
   text-align: center;
+  position: relative;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .content-grid {
@@ -98,7 +108,7 @@ html {
   position: relative;
 }
 
-.content-grid::after {
+.content-grid.main-page::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -176,4 +186,26 @@ html {
   text-decoration: none;
   color: #333;
   padding: 5px 0;
+}
+
+.contact-section {
+  width: 100%;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-page .content-grid {
+  display: block;
+  width: 100%;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.map-container {
+  margin-top: 20px;
 }
